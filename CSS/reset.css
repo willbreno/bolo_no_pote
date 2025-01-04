@@ -1,0 +1,52 @@
+/* Reset de CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e elementos base */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* Removendo as listas padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Removendo links padrão */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tabelas e elementos de formulário */
+table {
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajuste para inputs e botões */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/* Estilo para o corpo */
+body {
+    background-color: #fff;
+}

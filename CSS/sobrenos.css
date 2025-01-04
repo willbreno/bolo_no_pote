@@ -1,0 +1,73 @@
+.sobrenos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding-top: 5rem;
+}
+
+
+.sobrenos__titulo{
+
+    font-family: var(--cor-fonte-principal);
+    color: var(--cor-destaque);
+    padding-top: 4rem;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.sobrenos__paragravo{
+
+    padding-top: 2rem;
+    font-family: var(--cor-fonte-principal);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.botao{
+
+    padding-top: 9rem;
+}
+
+
+@media (max-width: 500px){
+
+    .sobrenos{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .logo__grande{
+
+        width: 20rem;
+    }
+
+    .sobrenos__titulo{
+
+        font-family: var(--cor-fonte-principal);
+        color: var(--cor-destaque);
+        padding-top: 4rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .sobrenos__paragravo{
+    
+        padding-top: 1rem;
+        font-family: var(--cor-fonte-principal);
+        font-weight: 800;
+        font-size: 1rem;
+    }
+
+    .botao{
+
+        padding-top: 2rem;
+    }
+}

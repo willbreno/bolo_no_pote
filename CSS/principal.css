@@ -1,0 +1,164 @@
+.principal {
+    padding-top: 10.95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal__titulo{
+
+    font-family: var(--fonte-destaque);
+    font-size: 04.31rem;
+    color: var(--cor-destaque);
+    font-weight: 400;
+
+}
+.principal__paragrafo{
+
+    padding-top: 2.45rem;
+    font-family: var(--fonte-destaque);
+    font-size: 2.5rem;
+    color: var(--cor-fonte-principal);
+    font-weight: 100;
+}
+
+.principal__botao{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15.59rem;
+    align-items: center;
+    text-align: center;
+    gap: 2.62rem;
+}
+
+
+
+.contentBox{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .border{
+    position:absolute;
+    background:none;
+    transition:all .5s ease-in-out;
+}
+
+.contentBox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.border {
+  position: absolute;
+  background: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttonBox {
+  margin: 0 20px 40px;
+  position: relative;
+  max-width: 200px;
+  min-width: 150px;
+  flex: 20%;
+}
+
+/* Estilo para o link 'Contato' */
+.button2 {
+  display: inline-block; /* Faz com que o <a> se comporte como um botão */
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.27);
+  text-transform: uppercase;
+  color: var(--cor-whatsapp);
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: pointer;
+  text-align: center; /* Alinha o texto centralizado */
+  line-height: 80px; /* Alinha verticalmente o texto no centro */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  z-index: 10;
+}
+
+#first1>.border:nth-of-type(1) {
+  top: 0;
+  left: 0;
+  border-left: 1px solid var(--cor-whatsapp);
+  border-top: 1px solid var(--cor-whatsapp);
+  width: 30px;
+  height: 30px;
+}
+
+#first1>.border:nth-of-type(2) {
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid var(--cor-whatsapp);
+  border-bottom: 1px solid var(--cor-whatsapp);
+  width: 30px;
+  height: 30px;
+}
+
+#first1:hover .border {
+  width: 102%;
+  height: 105%;
+}
+
+/* Caso o link seja um botão (a), o estilo é o mesmo dos buttons */
+.button2:hover {
+  background: rgba(255, 255, 255, 0.47); /* Mudança no fundo ao passar o mouse */
+}
+
+
+
+@media (max-width: 500px){
+
+  .principal {
+      padding-top: 1.95rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .principal__titulo{
+
+    font-family: var(--fonte-destaque);
+    font-size: 3.31rem;
+    color: var(--cor-destaque);
+    font-weight: 400;
+
+  }
+  .principal__paragrafo{
+
+    padding-top: 2.45rem;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    color: var(--cor-fonte-principal);
+    font-weight: 100;
+  }
+
+  .principal__botao{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4.0rem;
+    align-items: center;
+    text-align: center;
+    gap: 2.62rem;
+  } 
+
+
+}
